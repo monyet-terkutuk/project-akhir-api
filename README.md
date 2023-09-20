@@ -1,10 +1,44 @@
-# project-akhir-api
+# REST API  BOOKS
 
-### URL : http://13.212.201.230:9000/
-aplikasi dijalankan di port 9000
+Service ini tidak menggunakan database melainkan array dalam file books.js.
+
+## URL Aplikasi
+
+Akses url berikut untuk menggunakan api
+
+```bash
+http://13.212.201.230:9000/
+```
 
 ## Save Books
-- method : POST
-- url : /books
+- Method : POST
+- URL : /books
 
-` fsdf `
+Body Request :
+
+```json
+{
+    "name": string,
+    "year": number,
+    "author": string,
+    "summary": string,
+    "publisher": string,
+    "pageCount": number,
+    "readPage": number,
+    "reading": boolean
+}
+```
+Body Response :
+
+```json
+{
+    {
+    "status": "success",
+    "message": "Buku berhasil ditambahkan",
+    "data": {
+        "bookId": "1L7ZtDUFeGs7VlEt"
+    }
+}
+}
+```
+
