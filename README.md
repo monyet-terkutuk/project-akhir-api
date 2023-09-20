@@ -7,7 +7,7 @@ Service ini tidak menggunakan database melainkan array dalam file books.js.
 Akses url berikut untuk menggunakan api
 
 ```bash
-http://13.212.201.230:9000/
+http://13.212.201.230:9000/books
 ```
 
 ## Save Books
